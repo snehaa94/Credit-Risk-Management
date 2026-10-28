@@ -1,0 +1,19 @@
+@'
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.sqlite3
+*.db
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.pytest_cache/
+.mypy_cache/
+'@ | Set-Content -Encoding utf8 .gitignore
